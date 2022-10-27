@@ -1,0 +1,84 @@
+body {
+	font-size: 16px;
+}
+header{background: #f0fff0;}
+
+div {
+	margin: 2px;
+}
+
+.big-check{
+	transform: scale(3);
+}
+
+/* 検索ボックス */
+.search-box {
+	width:100%;
+}
+
+
+.search-box input {
+	width:100%;
+	font-size:1.2em;
+}
+
+/* ユーザー一覧テーブル */
+.user-table {
+	border: 1px grey solid;
+	border-spacing: 0px;
+}
+
+.user-table table,th,td{
+	border: 1px grey solid;
+	border-spacing: 0px;
+	padding: 5px;
+}
+
+.user-table th {
+    background-color: #2ea891;
+    color : white;
+}
+
+.user-table td {
+	background: #fefefe;
+}
+.user-table tr:nth-child(odd) td {
+	background: #fafafa;
+}
+
+.user-table tr:hover td{
+	background: #ccfccc;
+}
+
+.user-table td:nth-child(1),td:nth-child(4) {
+    text-align: center;
+}
+
+/* アバター画像 */
+.avatar-box{
+	height: 72px
+}
+
+.avatar-box img{
+	width: 64px;
+	border: 2px white solid;
+	border-radius: 64px
+}
+
+.avatar-box img:hover{
+	transform: scale(1.20, 1.20);
+	border: 2px gold solid;
+	border-radius: 16px;
+	margin-top: 2px;
+}
+
+.avatar-box p{
+	margin: 0px;
+}
+
+/* ボタンエリア */
+.button-area{
+	width: 100%;
+	text-align: right;
+	margin: 4px;
+}
