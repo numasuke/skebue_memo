@@ -36,7 +36,7 @@ function insertMemoTag() {
 	c += '  <div class="">';
 	c += '    <small><span class="has-text-primary has-text-weight-bold">SkebUe Memo</span></small>';
 	c += '  </div>';
-	c += '<textarea id="ueMemo" rows="10" style="width:100%;" class="textarea is-underline is-p-8"></textarea>';	// メモエリア
+	c += '<textarea id="ueMemo" rows="10" style="width:100%;" class="textarea is-underline is-p-8" maxlength="10000"></textarea>';	// メモエリア
 	c += '<input type="hidden" id="ueUserId" value="' + userId + '">';												// ユーザーID @つき
 	c += '<small><span id="ueMsg" class="aa-font msg_area"></span></small>';
 	c += '  <div class="link-icon" style="width:100%; text-align:right;" >';
